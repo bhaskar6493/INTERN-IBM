@@ -31,4 +31,17 @@ if (num2 > num3) {
     console.log("i am bhaskar jyoti Das");
 }
 
+let arr=['bhaskar', 0.14, [1,6,3,2],true];
+console.log(arr);
+console.log(arr[2][1]);
+let lastIndex=arr.length-1;
+console.log(lastIndex)
+console.log(arr.length)
+arr.push(108);
+console.log(arr);
 
+arr.pop();
+console.log(arr);
+
+arr[1]='hello';
+console.log(arr);
