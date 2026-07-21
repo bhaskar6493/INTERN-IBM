@@ -13,13 +13,13 @@
 //name='sachin'
 //console.log(name)
 
-
+//immediate print condition
 //(()=>{
 //console.log("immediatly run")
 //})()
 
 //foreach
-let arr=[1,2,3,4,5,6,7,8]
+//let arr=[1,2,3,4,5,6,7,8]
 //arr.forEach((e,i)=>{
 //    console.log(e,i)
 //})
@@ -30,6 +30,7 @@ let arr=[1,2,3,4,5,6,7,8]
  //   console.log(e*2,i)
 //})
 
+//filter
 //let fil=arr.filter((e,i)=>{
  //   return e%2!=0
 //})
@@ -40,10 +41,21 @@ let arr=[1,2,3,4,5,6,7,8]
 //    console.log(reduce acc=el*2)
 //}, 0)
 
-let out=arr.map((e,i)=>{
-    return e*5
-}).filter((e,i)=>{
-    return e%5==0
-})
+//let out=arr.map((e,i)=>{
+ //   return e*5
+//}).filter((e,i)=>{
+ //   return e%5==0
+//})
 
-console.log(out)
+//console.log(out)
+
+
+//let products={
+  //  leptop:45000,
+   // iphone:67000,
+   // mobileCover:1200,
+   // tablet:58999,
+//}
+//for(let item in products){
+   // console.log(item + ": " + (products[item] + products[item] * 0.15));
+//}
