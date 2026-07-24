@@ -49,7 +49,11 @@ form.addEventListener("submit", (e)=>{
 //localStorage.setItem('userdata',JSON.stringify(obj));
 //console.log(dataFromLocalStorage.fullName);
 let arr=JSON.parse(localStorage.getItem("userdata"))||[];
- 
+for(let i=0;i<arr.length;i++){
+    if(arr[i].email==obj.email)
+        window.location.href="admin.html";
+        return alert("you not eligible to enter ");
+} 
 })
 
 
